@@ -42,5 +42,10 @@ Please refer to the paper for details. Basically, all the cases are collected fr
 We crawled/downloaded the entire mailing list archives and online posts with specific tags from the first mail/post to the most recent ones at the collection period. The collection is conducted during January to March in 2016. We automatically parsed the entire mailing list archives and all the posts on the above sources via a number of filter pipelines. At the end of the pipeline, we manually collect the files from the sources.
 
 # How can you use the datasets?
-Each data file is in the CSV format (the first row is a title row); you can parse it using CSV parsers. If you are not clear about any field, you can post an issue on this repo and I will answer there.
+The data files are all in the CSV format (with a title row). If you want to take a close study, I suggest to load the CSV files into spreadsheet such as Google Sheets which dramatically improve the readability. In fact, the data are originally maintained in our own Google Sheets with colors and marks.
+
+If you are not clear about some columns or abbreviations, you can post an issue on this GitHub repo and I will answer there.
+
+# Disclaimer
+Note: the CSV data file is only a part of our spreadsheet in the study (we removed certain fields we used for cross-validation, notes, and scratches). 
 
